@@ -5,6 +5,9 @@ import ThemeToggle from './ThemeToggle';
 
 const navigation = [
   { name: 'Home', href: '/' },
+  { name: 'Blog', href: '/blog' },
+  { name: 'About', href: '/about' },
+  { name: 'AS Level', href: '/as-level' },
   { name: 'SYJC IT Practice', href: '/syjc-it' },
   { name: 'Software Downloads', href: '/downloads' },
   { name: 'Cyber Awareness', href: '/cyber-awareness' },

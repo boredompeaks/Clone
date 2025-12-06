@@ -1,0 +1,9 @@
+import { BlogPost } from "../types";
+
+export const post: BlogPost = {
+  slug: "nested-for-loop",
+  title: "NestedForLoop",
+  date: "December 18, 2023",
+  content: `<p>&nbsp;Topic : Nested For Loop</p><p></p><p class="MsoNoSpacing">class nestedloops<o:p></o:p></p><p class="MsoNoSpacing">{<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp; </span>public static void main()<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>int i,j;<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>for (i=1;i&lt;=2;i++<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>for(j=1;j&lt;=5;j=j+2<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>System.out.println("i ="+i+" j ="+j);<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></p><p class="MsoNoSpacing"><span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></p><p class="MsoNoSpacing">}<o:p></o:p></p>`,
+  author: "Badar Bawani"
+};
