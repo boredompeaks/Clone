@@ -1,5 +1,6 @@
 import React from 'react';
-import { Code, Brain, BookOpen } from 'lucide-react';
+import { Code, Brain, BookOpen, Network } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function ASLevel() {
   return (
@@ -7,20 +8,21 @@ export default function ASLevel() {
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold gradient-text mb-8">AS Level Computer Science</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
-            <Code className="h-8 w-8 text-indigo-600 mb-4" />
-            <h2 className="text-xl font-semibold mb-4">Programming</h2>
-            <p className="text-gray-600">Coming soon: Advanced programming concepts and practice.</p>
+          <Link to="/blog/communication-and-network" className="bg-white rounded-xl shadow-lg p-6 card-hover block group">
+            <Network className="h-8 w-8 text-indigo-600 mb-4 group-hover:text-purple-600 transition-colors" />
+            <h2 className="text-xl font-semibold mb-4">Communication and Network</h2>
+            <p className="text-gray-600">Chapter 2: Communication and network technologies. Bit streaming, IP addresses, Client-Server model.</p>
+          </Link>
+          
+          <div className="bg-white rounded-xl shadow-lg p-6 card-hover opacity-75">
+            <Code className="h-8 w-8 text-gray-400 mb-4" />
+            <h2 className="text-xl font-semibold mb-4 text-gray-500">Programming</h2>
+            <p className="text-gray-500">Coming soon: Advanced programming concepts and practice.</p>
           </div>
-          <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
-            <Brain className="h-8 w-8 text-purple-600 mb-4" />
-            <h2 className="text-xl font-semibold mb-4">Theory</h2>
-            <p className="text-gray-600">Coming soon: Computer science theory and concepts.</p>
-          </div>
-          <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
-            <BookOpen className="h-8 w-8 text-indigo-600 mb-4" />
-            <h2 className="text-xl font-semibold mb-4">Exam Prep</h2>
-            <p className="text-gray-600">Coming soon: Past papers and revision materials.</p>
+          <div className="bg-white rounded-xl shadow-lg p-6 card-hover opacity-75">
+            <Brain className="h-8 w-8 text-gray-400 mb-4" />
+            <h2 className="text-xl font-semibold mb-4 text-gray-500">Theory</h2>
+            <p className="text-gray-500">Coming soon: Computer science theory and concepts.</p>
           </div>
         </div>
       </div>

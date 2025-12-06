@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -15,24 +16,24 @@ export default function Hero() {
                 Comprehensive learning materials for computer science and information technology students.
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
-                <a
-                  href="/msc-it"
+                <Link
+                  to="/msc-it"
                   className="rounded-md bg-gradient-to-r from-indigo-600 to-purple-600 px-5 py-3 text-sm font-semibold text-white shadow-lg hover:from-indigo-500 hover:to-purple-500 transition-all duration-300"
                 >
                   Explore IT Notes
-                </a>
-                <a
-                  href="/icse-9"
+                </Link>
+                <Link
+                  to="/icse-9"
                   className="rounded-md bg-white dark:bg-gray-800 px-5 py-3 text-sm font-semibold text-indigo-600 dark:text-indigo-400 shadow-lg ring-1 ring-inset ring-indigo-200 dark:ring-indigo-800 hover:bg-indigo-50 dark:hover:bg-gray-700 transition-all duration-300"
                 >
                   Start Learning Java
-                </a>
-                <a
-                  href="/cyber-awareness"
+                </Link>
+                <Link
+                  to="/cyber-awareness"
                   className="rounded-md bg-white dark:bg-gray-800 px-5 py-3 text-sm font-semibold text-indigo-600 dark:text-indigo-400 shadow-lg ring-1 ring-inset ring-indigo-200 dark:ring-indigo-800 hover:bg-indigo-50 dark:hover:bg-gray-700 transition-all duration-300"
                 >
                   Access Cybersecurity Tips
-                </a>
+                </Link>
               </div>
             </div>
           </div>
