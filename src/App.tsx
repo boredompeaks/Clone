@@ -35,7 +35,7 @@ export default function App() {
   return (
     <HelmetProvider>
       <ThemeProvider>
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
           <ScrollToTop />
           <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 dark:text-white transition-colors duration-200">
             <Header />
