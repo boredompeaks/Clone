@@ -21,14 +21,24 @@ export default function MScIT() {
 
   // Imported Brain icon manually as it was missing in imports above
   function Brain(props: any) {
-    return <Activity {...props} />; 
+    return <Activity {...props} />;
   }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold gradient-text mb-8">MSc IT Resources</h1>
-        
+        <div className="relative h-64 md:h-80 rounded-3xl overflow-hidden mb-12 shadow-2xl">
+          <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 z-10" />
+          <img
+            src="/images/banners/mscit-banner.png"
+            alt="MSc IT Resources Banner"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent z-20 flex items-end p-8">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-0 text-shadow">MSc IT Resources</h1>
+          </div>
+        </div>
+
         <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg mb-12">
           <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
             I have completed Master in Information Technology and would like to share my notes and information which I have collected during my education.
@@ -37,7 +47,7 @@ export default function MScIT() {
           <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-100 dark:border-blue-800">
             <p className="text-blue-800 dark:text-blue-200 font-medium">
               To get these notes, email me at: <a href="mailto:badar.1024@gmail.com" className="underline">badar.1024@gmail.com</a>
-              <br/>
+              <br />
               Subject: Name of the notes you want.
             </p>
           </div>

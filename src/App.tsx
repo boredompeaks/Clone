@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
@@ -9,6 +9,7 @@ import Features from './components/Features';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 import SYJCITPractice from './pages/SYJCITPractice';
 import Downloads from './pages/Downloads';
 import CyberAwareness from './pages/CyberAwareness';
@@ -44,6 +45,7 @@ export default function App() {
                 <main>
                   <Hero />
                   <Features />
+                  <Gallery />
                   <Testimonials />
                   <Contact />
                 </main>

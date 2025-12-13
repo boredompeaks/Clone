@@ -32,7 +32,7 @@ export default {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'hero-pattern': "url('https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')",
+        'hero-pattern': "url('/images/banners/home-hero.png')",
       },
     },
   },

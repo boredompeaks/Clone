@@ -38,7 +38,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen relative z-10">
+        <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 relative z-10">
           <div className="bg-gradient-to-r from-indigo-600 to-purple-600 p-8 rounded-2xl shadow-2xl">
             <div className="overflow-hidden rounded-xl bg-gray-900">
               <div className="flex bg-gray-800/40 ring-1 ring-white/5">
